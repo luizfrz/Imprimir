@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="form style/estilizar.css">
+    <script src="code js/script.js"></script>
+    <link rel="shortcut icon" href="logo/print logo.png" type="image/x-icon">
+    <title>nota entrega</title>
+</head>
+<body>
+    <h1 class="delivery">Coloque as informações e clique em imprimir!</h1>
+    <form id="imprimir">
+        <fieldset>
+        <div class="formulario">
+            <label>Endereço</label>
+                <input  type="text">
+            </label>
+        </div>
+        <div class="formulario">
+            <label>ap</label>
+                <input type="text">
+            </label>
+        </div>
+        <div class="formulario">
+            <label>nome completo</label>
+                <input type="text">
+            </label>
+        </div>
+            
+        <div class="formulario">
+            <label>telefone</label>
+                <input type="text">
+            </label>
+        </div>
+        <div class="formulario">
+            <label>Pago?</label>
+                <input type="checkbox">
+            </label>
+        </div>
+        <div class="formulario">
+            <label>Volumes</label>
+                <input type="number">
+            </label>
+        </div>
+
+        <input type="button"onclick="impressao('printra')" value="IMPRIMIR" class="printcs" id="printra"></input>            
+        </fieldset>
+
+    </form>
+</body>
+</html>

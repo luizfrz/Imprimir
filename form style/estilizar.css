@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(24, 78, 160);
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 22%;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+fieldset{
+    border: 5px solid rgb(12, 65, 134);
+    border-radius: 10px;
+}
+label{
+    margin: 10px;
+}
+input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+form{
+    width: 90px;
+}
+.printcs{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    margin: 15%;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: rgb(194, 144, 52);
+    color: black;   
+    transition: transform 1.4ms;   
+    cursor: pointer;    
+}
+.delivery{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+    margin: 30px;
+    width: 70%;
+    border: 5px solid black;
+    margin-left: 2%;
+    margin-right: 40%;   
+}
+.printcs:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: rgb(212, 157, 53);
+}
